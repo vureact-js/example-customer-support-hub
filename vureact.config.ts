@@ -1,6 +1,7 @@
 ﻿import { defineConfig } from '@vureact/compiler-core';
 
 export default defineConfig({
+  exclude: ['src/main.ts'],
   router: {
     configFile: 'src/router/index.ts',
   },
