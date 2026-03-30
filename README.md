@@ -10,7 +10,7 @@
 
 ## 重要事项
 
-请手动在 `.vureact/react-app/src/main.tsx` 中导入了 `styles/app.css`，补齐页面样式！！！。
+请手动在 `.vureact/react-app/src/main.tsx` 中导入 `styles/app.css`，补齐页面样式！！！。
 
 ```js
 // main.tsx
