@@ -2,18 +2,19 @@
   // These tasks will run in order when initializing your CodeSandbox project.
   "setupTasks": [
     {
-      "name": "Installing Dependencies",
-      "command": "pnpm install"
+      "command": "pnpm install",
+      "name": "Installing Dependencies"
     },
     {
-      "name": "VuReact Build",
-      "command": "pnpm vr:build"
+      "command": "pnpm vr:build",
+      "name": "VuReact Build"
     },
     {
-      "name": "Installing React Dependencies",
-      "command": "cd .vureact/react-app && pnpm install"
+      "command": "cd .vureact/react-app && pnpm install",
+      "name": "Installing React Dependencies"
     }
   ],
+
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
     "dev-react": {
@@ -32,7 +33,6 @@
     "dev-vue": {
       "name": "dev-vue",
       "command": "pnpm dev",
-      "runAtStart": false,
       "preview": {
         "port": 5174
       }
