@@ -4,7 +4,7 @@
 
 - 技术栈：Vue + Vue Router + Ant Design（React）+ Zustand（React） + Sass + dayjs + fusejs
 - 场景：客服工单协同流程（列表、详情、知识库、SLA）
-- 页面：登录、总览、工单列表、工单详情、知识库、SLA 看板、设置
+- 页面：登录、总览、工单列表、客户管理、坐席管理、知识库、SLA 看板、设置
 
 简体中文 | [English](./README.en.md)
 
@@ -13,7 +13,7 @@
 请手动在 `.vureact/react-app/src/main.tsx` 中导入 `styles/app.css`，补齐页面样式！！！。
 
 ```js
-// main.tsx
+// import './index.css' （移除 Vite 初始化样式）
 import 'styles/app.css';
 ```
 

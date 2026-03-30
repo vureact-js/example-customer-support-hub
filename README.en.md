@@ -4,7 +4,7 @@ This example demonstrates a business-oriented mixed-writing project for VuReact 
 
 - Stack: Vue + Vue Router + Ant Design (React) + Zustand + Sass + dayjs + fuse.js
 - Focus: controlled mixed writing in a realistic support ticket workflow
-- Pages: login, dashboard, ticket list, ticket detail, knowledge base, SLA board, settings
+- Pages: login, overview, ticket list, customer management, agent management, knowledge base, SLA dashboard, settings
 
 English | [简体中文](./README.md)
 
@@ -13,7 +13,7 @@ English | [简体中文](./README.md)
 Please manually import `styles/app.css` in `.vureact/react-app/src/main.tsx` to complete the page styles!!!
 
 ```js
-// main.tsx
+// import './index.css' (remove Vite initialization styles)
 import 'styles/app.css';
 ```
 
