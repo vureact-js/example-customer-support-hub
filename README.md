@@ -8,6 +8,15 @@
 
 简体中文 | [English](./README.en.md)
 
+## 重要事项
+
+请手动在 `.vureact/react-app/src/main.tsx` 中导入了 `styles/app.css`，补齐页面样式！！！。
+
+```js
+// main.tsx
+import 'styles/app.css';
+```
+
 ## 开始使用
 
 注：在 CodeSandbox 在线环境中，通常无需执行以下步骤。若发现预览页面未正常启动，只需进入 `.vureact/react-app/` 目录并运行 `npm run dev` 即可。
@@ -53,9 +62,3 @@ npm run dev
 ## 官方教程
 
 <https://www.vureact.top/guide/customer-support-hub.html>
-
-## FAQ
-
-**Q**: 为什么启用页面后发现样式残缺？
-
-**A**: 确保在 `main.tsx` 中导入了 `styles/app.css`

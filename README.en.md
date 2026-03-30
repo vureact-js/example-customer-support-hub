@@ -8,6 +8,15 @@ This example demonstrates a business-oriented mixed-writing project for VuReact 
 
 English | [简体中文](./README.md)
 
+## Important Notes
+
+Please manually import `styles/app.css` in `.vureact/react-app/src/main.tsx` to complete the page styles!!!
+
+```js
+// main.tsx
+import 'styles/app.css';
+```
+
 ## Getting Started
 
 Note: In the CodeSandbox online environment, the following steps are usually not required. If you find that the preview page does not start properly, simply navigate to the `.vureact/react-app/` directory and run `npm run dev`.
@@ -53,9 +62,3 @@ npm run dev
 ## Official Tutorial
 
 <https://www.vureact.top/en/guide/customer-support-hub.html>
-
-## FAQ
-
-**Q**: Why is the style incomplete after enabling the page?
-
-**A**: Ensure that `styles/app.css` is imported in `main.tsx`
