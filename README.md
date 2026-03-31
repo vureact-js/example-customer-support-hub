@@ -8,15 +8,6 @@
 
 简体中文 | [English](./README.en.md)
 
-## 重要事项
-
-请手动在 `.vureact/react-app/src/main.tsx` 中导入 `styles/app.css`，补齐页面样式！！！。
-
-```js
-// import './index.css' （移除 Vite 初始化样式）
-import 'styles/app.css';
-```
-
 ## 开始使用
 
 注：在 CodeSandbox 在线环境中，通常无需执行以下步骤。若发现预览页面未正常启动，只需进入 `.vureact/react-app/` 目录并运行 `npm run dev` 即可。
