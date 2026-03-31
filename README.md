@@ -10,7 +10,11 @@
 
 ## 开始使用
 
-注：在 CodeSandbox 在线环境中，通常无需执行以下步骤。若发现预览页面未正常启动，只需进入 `.vureact/react-app/` 目录并运行 `npm run dev` 即可。
+### 注意事项
+
+- 若 `vureact(watch)` 监听任务未运行，请在项目根目录执行 `pnpm vr:watch`，否则 Vue 端的修改将无法同步至 React 应用。
+
+- 在 CodeSandbox 在线环境中，通常无需手动执行以下步骤。若预览页面未能正常启动，请进入 `.vureact/react-app/` 目录并运行 `npm run dev` 即可。
 
 ### Step 1: 运行 VuReact 构建
 

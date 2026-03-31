@@ -10,7 +10,11 @@ English | [简体中文](./README.md)
 
 ## Getting Started
 
-Note: In the CodeSandbox online environment, the following steps are usually not required. If you find that the preview page does not start properly, simply navigate to the `.vureact/react-app/` directory and run `npm run dev`.
+### Notes
+
+- If the `vureact(watch)` monitoring task is not running, please execute `pnpm vr:watch` in the project root directory. Otherwise, modifications made on the Vue side will not be synchronized to the React application.
+
+- In the CodeSandbox online environment, it is usually not necessary to manually perform the following steps. If the preview page fails to start normally, please navigate to the `.vureact/react-app/` directory and run `npm run dev`.
 
 ### Step 1: Run VuReact Build
 
