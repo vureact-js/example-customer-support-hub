@@ -6,6 +6,8 @@ This example demonstrates a business-oriented mixed-writing project for VuReact 
 - Focus: controlled mixed writing in a realistic support ticket workflow
 - Pages: login, overview, ticket list, customer management, agent management, knowledge base, SLA dashboard, settings
 
+> The final compilation output is a pure React application, without any runtime encapsulation layer, such as embedding a Vue runtime container within React.
+
 English | [简体中文](./README.md)
 
 ## Getting Started
