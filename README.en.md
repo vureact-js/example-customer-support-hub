@@ -1,14 +1,47 @@
-﻿# Customer Support Hub (Mixed Writing Example)
+﻿# Customer Support Hub (Mixed Writing)
 
-This example demonstrates a business-oriented mixed-writing project for VuReact compiler:
-
-- Stack: Vue + Vue Router + Ant Design (React) + Zustand + Sass + dayjs + fuse.js
-- Focus: controlled mixed writing in a realistic support ticket workflow
-- Pages: login, overview, ticket list, customer management, agent management, knowledge base, SLA dashboard, settings
-
-> The final compilation output is a pure React application, without any runtime encapsulation layer, such as embedding a Vue runtime container within React.
+This is a realistic multi-channel customer support sample used to stress-test VuReact in a business-style admin application.
 
 English | [简体中文](./README.md)
+
+## Stack
+
+- Vue 3
+- Vue Router 4
+- Ant Design React 6
+- Zustand
+- Sass
+- dayjs
+- fuse.js
+
+## Business Scope
+
+The sample now covers the main workflow of a mid-sized support collaboration system:
+
+- Login and admin shell
+- Dashboard
+- Conversation Center
+- Tickets List
+- Ticket Detail
+- Customers
+- Agents
+- Knowledge Base
+- SLA Board
+- Settings
+
+## Conversion Coverage
+
+This example intentionally pushes compiler-sensitive Vue patterns inside real pages instead of isolated demos:
+
+- layered conditionals: `v-if / v-else-if / v-else / v-show`
+- nested lists with multiple `v-for`
+- named slots and scoped slots
+- dynamic components via `:is`
+- `defineProps / defineEmits / defineExpose`
+- `provide / inject`
+- `watch / watchEffect / computed`
+- multi-`v-model` event mapping
+- template literals plus object / array literal props
 
 ## Getting Started
 
@@ -59,3 +92,11 @@ npm run dev
 ## Official Tutorial
 
 <https://www.vureact.top/en/guide/customer-support-hub.html>
+
+## Feedback & Community
+
+- Problems? See the [FAQ](https://vureact.top/en/guide/faq.html) or open an [Issue](https://github.com/vureact-js/core/issues).
+- Questions about router adaptation? See the [router adaptation guide](https://vureact.top/en/guide/router-adaptation.html).
+- Page styles look wrong? See the [style troubleshooting solution](https://vureact.top/en/guide/faq.html#q35-how-to-fix-missing-or-broken-page-styles).
+- Share your experience on [Discussions](https://github.com/vureact-js/core/discussions).
+- Want to support the project? [Click a ⭐](https://github.com/vureact-js/core/stargazers) helps more people discover it.
